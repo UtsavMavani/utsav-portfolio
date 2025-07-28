@@ -36,7 +36,6 @@ import LogoVNSGU from "/public/images/logos/logo-vnsgu.png";
 import ProjectBest1 from "/public/images/project-best1.png";
 import ProjectDiagnosergt from "/public/images/project-diagnosergt.png";
 import ProjectHolyreads from "/public/images/project-holyreads.png";
-import ProjectLMS from "/public/images/project-lms.png";
 
 import {
   AchievementsDetails,
@@ -262,20 +261,6 @@ export const PROJECTS: ProjectDetails[] = [
       "Cron",
       "Firebase Admin",
       "AWS SDK",
-    ],
-  },
-  {
-    name: "Leave Management System",
-    description: `I Developed a Leave Management System, leveraging my skills in the MEAN stack, to automate and streamline employee leave processes. The purpose of the "Leave Management System" is to streamline and automate the process of managing employee leave requests within an organization. Designed and implemented features for leave request submission, approval workflows, real-time leave balance tracking, and comprehensive reporting.`,
-    url: "https://leaveboard.netlify.app/",
-    previewImage: ProjectLMS,
-    technologies: [
-      "Angular",
-      "Node.js",
-      "Typescript",
-      "Bootstrap",
-      "Express.js",
-      "MySQL",
     ],
   },
 ];

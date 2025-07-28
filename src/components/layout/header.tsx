@@ -20,7 +20,7 @@ import Typography from "@/components/general/typography";
 import Download from "@/components/general/download";
 
 const Logo = () => (
-  <Typography variant="h3" className="font-bold">
+  <Typography variant="h2" className="font-bold">
     UTSAV
   </Typography>
 );
@@ -56,11 +56,11 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <div className="h-6 w-0.5 bg-gray-100"></div>
+          {/* <div className="h-6 w-0.5 bg-gray-100"></div>
           <div className="flex items-center gap-4">
-            {/* <ThemeSwitcher /> */}
+            <ThemeSwitcher />
             <Download title="CV" fileName="utsav-resume.pdf" />
-          </div>
+          </div> */}
         </div>
 
         <Drawer open={isOpen} onOpenChange={setIsOpen}>
@@ -97,13 +97,13 @@ const Header = () => {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col gap-4 p-4">
-              {/* <div className="flex items-center justify-between">
+            {/* <div className="flex flex-col gap-4 p-4">
+              <div className="flex items-center justify-between">
                 <Typography>Switch Theme</Typography>
                 <ThemeSwitcher />
-              </div> */}
+              </div>
               <Download title="CV" fileName="utsav-resume.pdf" />
-            </div>
+            </div> */}
           </DrawerContent>
         </Drawer>
       </div>

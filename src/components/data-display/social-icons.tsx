@@ -5,7 +5,7 @@ import IconButton from "@/components/general/icon-button";
 
 const SocialIcons = () => {
   return (
-    <div className="flex gap-1">
+    <div className="flex items-center gap-2">
       {SOCIAL_LINKS.map((socialLink, index) => (
         <IconButton
           key={index}

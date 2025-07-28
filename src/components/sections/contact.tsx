@@ -50,10 +50,10 @@ const ContactSection = () => {
 
       <div className="mt-10 flex flex-col items-center gap-6 md:gap-10">
         <div className="flex flex-col items-center md:gap-5">
-          <div className="flex items-center gap-4 md:gap-5">
+          <div className="flex items-center gap-3 md:gap-5">
             <Mail className="h-6 w-6 md:h-8 md:w-8" />
             <Link href={`mailto:${email}`}>
-              <Typography variant="h2">{email}</Typography>
+              <Typography variant="h3">{email}</Typography>
             </Link>
 
             <IconButton
@@ -65,10 +65,10 @@ const ContactSection = () => {
               <Copy />
             </IconButton>
           </div>
-          <div className="flex items-center gap-4 md:gap-5">
+          <div className="flex items-center gap-3 md:gap-5">
             <Phone className="h-6 w-6 md:h-8 md:w-8" />
             <Link href={`tel:${phone.replace(" ", "")}`}>
-              <Typography variant="h2">{phone}</Typography>
+              <Typography variant="h3">{phone}</Typography>
             </Link>
 
             <IconButton
@@ -82,7 +82,7 @@ const ContactSection = () => {
           </div>
         </div>
         
-        <div className="flex flex-col items-center gap-2">
+        <div className="flex flex-col items-center gap-3">
           <Typography className="text-center">
             You may also find me on these platforms!
           </Typography>

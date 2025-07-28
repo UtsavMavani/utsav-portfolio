@@ -25,7 +25,7 @@ const ProjectDetails = ({
       {/* Image */}
       <div
         className={mergeClasses(
-          'flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl md:w-1/2 lg:p-12',
+          'flex items-center justify-center border-gray-100 bg-gray-50 p-5 dark:bg-gray-200 max-md:rounded-t-xl md:w-1/2 lg:p-10',
           layoutType === 'default'
             ? 'md:rounded-l-xl md:border-r'
             : 'md:order-last md:rounded-r-xl md:border-l'
@@ -44,7 +44,7 @@ const ProjectDetails = ({
       {/* Content */}
       <div
         className={mergeClasses(
-          'flex flex-col gap-6 p-8 md:w-1/2 lg:p-12',
+          'flex flex-col gap-6 p-5 md:w-1/2 lg:p-10',
           layoutType === 'default' ? '' : 'md:order-first'
         )}
       >
